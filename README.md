@@ -30,7 +30,6 @@ $ cat slurm-<ID>.out
                 ||     ||
 ```
 
-
 ## References
 - [`sbatch` command](https://slurm.schedmd.com/sbatch.html)
 - [Apptainer/Singularity](https://apptainer.org/)
