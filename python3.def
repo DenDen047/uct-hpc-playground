@@ -1,0 +1,11 @@
+BootStrap: docker
+From: python:3.10
+
+%post
+    apt-get -y update
+
+%environment
+    export LC_ALL=C
+
+%runscript
+    python -V

@@ -30,6 +30,15 @@ $ cat slurm-<ID>.out
                 ||     ||
 ```
 
+### Build a Singularity Image and Run
+
+```bash
+$ singularity remote login  # login Sylabs.io for remote-builder
+$ singularity build --remote python3.sif python3.def
+$ singularity run python3.sif
+Python 3.10.2
+```
+
 ## References
 - [`sbatch` command](https://slurm.schedmd.com/sbatch.html)
 - [Apptainer/Singularity](https://apptainer.org/)
