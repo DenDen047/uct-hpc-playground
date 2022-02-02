@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=aru
 #SBATCH --partition=a100
-#SBATCH --gres=gpu:a100-1g-5gb:1
+#SBATCH --gres=gpu:a100-2g-10gb:1
 #SBATCH --ntasks=2
 #SBATCH --nodes=1
 #SBATCH --time=10:10:00
