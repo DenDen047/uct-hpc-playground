@@ -20,9 +20,9 @@ $ singularity pull library://lolcow
 $ sbatch singularity_simple.sh
 Submitted batch job <ID>
 $ cat slurm-<ID>.out
- _____
-< moo >
- -----
+ _________
+< ARU HPC >
+ ---------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
@@ -42,7 +42,7 @@ Python 3.10.2
 ### A100
 
 ```bash
-$ sbatch gpu_tset.sh
+$ sbatch gpu_test.sh
 Submitted batch job <ID>
 $ cat slurm-<ID>.out
 Wed Feb  2 13:12:25 2022
