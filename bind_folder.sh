@@ -5,4 +5,4 @@
 #SBATCH --time=10:10:00
 
 # By default you start in the directory you submitted your job from.
-singularity exec lolcow_latest.sif cowsay "ARU HPC"
+singularity exec --bind /home/mrmnao001:/workdir python3.sif ls -l /workdir
