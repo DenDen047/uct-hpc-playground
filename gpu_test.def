@@ -1,0 +1,11 @@
+BootStrap: docker
+From: nvidia/cuda:11.5.1-cudnn8-runtime-ubuntu20.04
+
+%post
+    apt-get -y update
+
+%environment
+    export LC_ALL=C
+
+%runscript
+    nvidia-smi
